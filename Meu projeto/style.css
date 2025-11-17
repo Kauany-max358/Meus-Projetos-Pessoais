@@ -1,0 +1,91 @@
+/* Importando uma fonte "gamer" do Google Fonts (opcional, mas legal!) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #1a1a2e; /*Um fundo escuro, tipo "jogo" */
+    color:azure; /* Texto principal claro */
+    font-family: Arial,sans-serif; /* Uma fonte segura */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding:20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    /*A fonte pixelada!*/
+    color: #e62f2f;
+    font-size: 2.5em;
+}
+
+
+/* O contêiner principal que alinha os cards */
+.character-select {
+    display: flex;
+    /* Alinha os cards um ao lado do outro */
+    justify-content: center;
+    /* Centraliza eles na página */
+    flex-wrap: wrap;
+    /* Se não couber, quebra a linha */
+    gap: 30px;
+    /* Espaço entre os cards */
+    padding: 20px;
+}
+
+
+.character-card {
+    background-color: #2a2a4e; /* Um roxo/azul escuro */
+    width: 250px;
+    border: 3px solid #4a4a8e; /* Borda sutil */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    /* A MÁGICA DA TRANSIÇÃO! */
+    /* Isso faz o efeito do :hover ser suave (dura 0.3 segundos) */
+    transition: all 0.3s ease-in-out;
+}
+
+.character-card img {
+    width: 100%;
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 5px; /* Cantos arredondados na imagem */
+    border: 2px solid #fca311;
+}
+
+.character-card h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top:10px;
+}
+
+.character-card p {
+    font-size: 0.9em;
+    color: #c0c0c0;
+}
+
+.character-card:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho do card */
+    border-color: #fca311; /* A borda fica dourada */
+    box-shadow: 0 0 20px #fca311; /* Um "brilho" (glow) dourado! */
+    cursor: pointer; /* Muda o mouse para a "mãozinha" */
+}
+
+#cowgirl:hover {
+    box-shadow: 0 0 20px #e63946; /* Brilho vermelho para o guerreiro */
+    border-color: #e63946;
+}
+
+#mermaid:hover {
+    box-shadow: 0 0 20px #457b9d; /* Brilho azul para a maga */
+    border-color: #457b9d;
+}
+
+#divinho:hover {
+    box-shadow: 0 0 20px #52b788; /* Brilho verde para o arqueiro */
+    border-color: #52b788;
+}
