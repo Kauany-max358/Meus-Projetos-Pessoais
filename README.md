@@ -1,4 +1,4 @@
-# Meus-Projetos-Pessoais
+# Meus-Projetos-Pessoais ⭐
 Olá!
 Bem-vindo(a)! Aqui estão os projetos nos quais tenho trabalhado ultimamente. Sou iniciante e estou mergulhando na área e agradeceria muito quaisquer dicas ou sugestões que você possa ter. Sinta-se à vontade para contribuir ou comentar!
 
